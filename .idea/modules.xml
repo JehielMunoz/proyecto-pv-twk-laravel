@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../proyecto-pv-twk-vue/.idea/proyecto-pv-twk.iml" filepath="$PROJECT_DIR$/../proyecto-pv-twk-vue/.idea/proyecto-pv-twk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proyecto-pv-twk-laravel.iml" filepath="$PROJECT_DIR$/.idea/proyecto-pv-twk-laravel.iml" />
     </modules>
   </component>
