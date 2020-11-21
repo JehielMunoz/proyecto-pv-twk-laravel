@@ -1,7 +1,6 @@
 <?php
 
-use Illuminate\Database\Seeder;
-
+use Illuminate\Database\seeder;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +10,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(ProductSeeder::class);
+        $this->call([ProductSeeder::class]);
     }
 }

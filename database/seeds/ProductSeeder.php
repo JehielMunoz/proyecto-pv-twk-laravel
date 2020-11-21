@@ -1,7 +1,8 @@
 <?php
-namespace Datababase\Seeders;
+
+use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
-use DB;
+
 class ProductSeeder extends Seeder
 {
     /**
@@ -11,11 +12,14 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
+        $faker = Faker::create();
+        $productos = [];
+
         foreach (range(1,25) as $index){
             $productos[] = [
-                'Nombre' => 'NombreTest' + $index,
-                'Marca' => 'MarcaTest' + $index,
-                'Precio' => rand(1000,10000,500),
+                'Nombre' => "Producto $index ".$faker->text(10)." ".$faker->numberBetween(20,30),
+                'Marca' => rand(1,10),
+                'Precio' => rand(1000,10000),
                 'Cantidad' => rand(1,30),
             ];
         }
