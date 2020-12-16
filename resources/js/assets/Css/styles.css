@@ -1,0 +1,112 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+#img-holder{
+    border: 2px solid powderblue;
+    width: 100px;
+    height: 100px;
+    display: inline-grid;
+}
+#ventas-holder{
+    margin:0;
+    width:95vw;
+    height:75vh;
+}
+#table-holder{
+    position: relative;
+    border: 2px solid powderblue;
+    left:2%;
+    width: 73%;
+    height:80%;
+    max-height: 80%;
+    display: inline-grid;
+    float:left;
+    overflow: auto;
+}
+#detail-holder{
+    position: relative;
+    left: 2%;
+    border: 2px solid powderblue;
+    height: 80%;
+    display: inline-grid;
+    float: right;
+    width: 24%;
+    overflow: hidden;
+}
+/*
+#button-holder{
+    width: 50%;
+    float:left;
+    display: inline-grid;
+}
+*/
+#detail-holder table, #table-holder table{
+    border-collapse:collapse;
+    border-radius: 10px;
+}
+.list-Holder tr:nth-child(even){
+    background-color: slategray;
+    color: #fff;
+}
+.list-Holder *, .detail-list *{
+    padding: 4px;
+    border-collapse: collapse;
+    border: 1px solid lightslategray;
+}
+#button-holder {
+    width: 75%;
+    height:25%;
+    border-color: #2c3e50;
+    display:inline-grid;
+    position:relative
+}
+#inputHolder {
+    width: 25%;
+    height:25%;
+    border-color: #2c3e50;
+    display:inline-grid;
+    position:relative;
+    float:right;
+}
+#button-holder button{
+    width:15%;
+    height: 25%;
+    top:15px;
+    border-color: #2c3e50;
+    display:inline-grid;
+    position:relative
+}
+#btn1{left:2%;float:left;} #btn2{left:8%;float:left;} #btn3{left:14%;float:left;}
+#prodManual{
+    width:25%;
+    height: 25%;
+    top:-5px;
+    left:60%;
+    border-color: #2c3e50;
+    display:grid;
+    position:relative
+}
+#btnManual{
+    width:75%;
+    height: 25%;
+    top:15px;
+    border-color: #2c3e50;
+}
+a:link,a:visited,a:active,a:hover {
+    text-decoration: none;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+
+
+

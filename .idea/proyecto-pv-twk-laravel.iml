@@ -114,5 +114,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="proyecto-pv-twk" />
+    <orderEntry type="module" module-name="prueba" />
   </component>
 </module>
