@@ -18,19 +18,25 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+/*
 Route::get('/home', 'HomeController@index')->name('home');
 
-# Ventas
-Route::get('/productos', 'ProductoController@index');
+#getParametros
+Route::get('/maxId', 'ProductoController@maxId');
 
-# Ingreso productos
-Route::get('/ingresoProducto', 'IngresoProdController@index');
+Route::get('/marcas',       'ProductoController@getMarcas');
+Route::get('/categorias',   'ProductoController@getCategorias');
+Route::get('/medidas',      'ProductoController@getMedidas');
+Route::get('/proveedores',  'ProductoController@getProv');
 
-
-# ...Vue?
-
+#Creaciones
+#   |Productos
+Route::post('/crearProducto','ProductoController@crearProducto');
+# fromVue
+Route::get('/buscar', 'ProductoController@index2');
+Route::get('/buscarCodigo/{id}', 'ProductoController@buscaId');
+Route::get('/buscarNombre/{name}', 'ProductoController@buscaName');
 Route::get('/ventas', 'VentasController@index');
 Route::get('/compras', 'ComprasController@index');
-Route::get('/crear_producto', 'CrearProductoController@index');
 Route::get('/flujo_entrada', 'FlujoEntradaController@index');
+*/

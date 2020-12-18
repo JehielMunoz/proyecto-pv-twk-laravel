@@ -26,3 +26,4 @@ class IngresoProdResource extends JsonResource
         ];
     }
 }
+CodigoProd,Cantidad,NumeroLote,fechaVencimiento,Ubicacion,idResponsable,fechaOperacion

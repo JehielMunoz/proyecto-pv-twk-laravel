@@ -15,21 +15,15 @@ class ProductoResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'id' => $this->id,
-            'Nombre' => $this->nombre,
-            'Marca' => $this->marca,
-            'Precio' => $this->precio,
-            'Cantidad' => $this->cantidad,
-            'Descuento' => $this->descuento,
             'codigo' => $this->codigo,
             'nombre' => $this->nombre,
-            'idCategoria' => $this->idCat,
-            'idmedida' => $this->idMed,
-            'idmarca' => $this->idMar,
-            'idresponsablecreacion' => $this->idResp,
+            'idCategoria' => $this->idCategoria,
+            'idMedida' => $this->idMedida,
+            'idMarca' => $this->idMarca,
+            'idresponsableCreacion' => $this->idresponsableCreacion,
             'descripcion' => $this->descripcion,
-            'fechacreacion' => $this->fCreacion,
-            'fechamodificacion' => $this->fModificacion
+            'fechaCreacion' => $this->fechaCreacion,
+            'fechaModificacion' => $this->fechaModificacion
         ];
     }
 }
